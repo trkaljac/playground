@@ -1,2 +1,2 @@
-question = input("Excuse me can you repeat please").lower
-print(question)
+input("Excuse me can you repeat please ").lower()
+print(input)
