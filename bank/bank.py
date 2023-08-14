@@ -1,1 +1,1 @@
-input("Greeting: ")
+input("Greeting: ").strip().lower().replace(" ","")
