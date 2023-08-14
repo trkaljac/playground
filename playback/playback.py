@@ -1,2 +1,2 @@
-input()
+input().partition(...)
 print(input)
