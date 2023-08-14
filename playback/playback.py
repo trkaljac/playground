@@ -1,2 +1,2 @@
 input()
-print
+print(input,sep="...")
