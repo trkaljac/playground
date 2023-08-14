@@ -1,15 +1,8 @@
 # ":)" == "🙂" , ":( "== "🙁"
 
-def convert():
-    text = input()
-    if text == ":)":
-        print("🙂")
-    elif text==":(":
-        print("🙁")
-    else:
-        print(text)
-
-convert()
-
+def convert(input_str):
+    input_str = input_str.replace(":)", "🙂").replace(":(", "🙁")
+    return input_str
+convert(input_str)
 
 
