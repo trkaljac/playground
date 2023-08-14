@@ -6,3 +6,6 @@ def convert(input_str):
 convert(input_str)
 
 
+input = input("Enter a string: ")
+text = convert(input)
+print(text)
