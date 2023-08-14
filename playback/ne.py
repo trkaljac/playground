@@ -1,2 +1,2 @@
-input()
-print(input).split(...)
+test = input().split()
+print(test)
