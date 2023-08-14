@@ -1,5 +1,7 @@
 
-greeting = input("Greeting: ").strip().lower().replace((" ","")",","")
+greeting = input("Greeting: ")
+
+greating = greeting.strip().lower().replace(" ","").replace(",","")
 
 if greeting == "hello":
     print("$0")
