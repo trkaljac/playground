@@ -1,4 +1,3 @@
 input()
 
-print(input)
-separator(...)
+print(input).split().joint("...")
