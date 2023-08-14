@@ -1,1 +1,1 @@
-print("...".join(input("Enter a string: ").split()))
+print("...".join(input().split()))
