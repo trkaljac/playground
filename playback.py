@@ -1,7 +1,7 @@
-def slow_down_text(text):
+def slow_down(text):
     return text.replace(' ', '...')
 
-if __name__ == "__main__":
+if name == "main":
     user_input = input()
-    slowed_down_text = slow_down_text(user_input)
-    print(slowed_down_text)
+    slowed_down = slow_down(user_input)
+    print(slowed_down)
