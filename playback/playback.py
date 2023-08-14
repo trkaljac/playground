@@ -1,2 +1,2 @@
-input= "...".join((input).split(input))
+input = input()
 print(input)
