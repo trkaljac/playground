@@ -1,3 +1,4 @@
 input()
+
 print(input)
 separator(...)
