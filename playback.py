@@ -3,4 +3,4 @@ def slow_down(text):
 
 user_input = input()
 slow_down = slow_down(user_input)
-print(slowed_down)
+print(slow_down)
