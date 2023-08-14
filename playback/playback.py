@@ -1,1 +1,2 @@
-print("...".join((input).split()))
+input= "...".join((input).split(input))
+print(input)
