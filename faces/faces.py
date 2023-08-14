@@ -8,6 +8,7 @@ def convert():
         print("🙁")
     else:
         print(text)
+
 convert()
 
 
