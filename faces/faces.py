@@ -1,9 +1,11 @@
 # ":)" == "🙂" , ":( "== "🙁"
 
-def convert()
-    if input(":)")
+def convert():
+    text = input()
+    if text == ":)":
     print("🙂")
-    if input(":(")
+elif text==":(":
     print("🙁")
     else
-    print(input)
+    print(text)
+convert()
