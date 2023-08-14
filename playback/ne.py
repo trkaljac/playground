@@ -1,2 +1,3 @@
-test = input().split()
+test = input()
+separator(...)
 print(test)
