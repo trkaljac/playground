@@ -1,4 +1,4 @@
-# E = mc2 c** m* (c**)
+# E = mc2  m* (c**)
 
 c = 300000000
 m = float(input())
