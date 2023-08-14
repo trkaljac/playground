@@ -1,3 +1,2 @@
-test = input().split("...")
+print("...".join(input("Enter a string: ").split()))
 
-print(test)

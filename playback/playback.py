@@ -1,4 +1,1 @@
-input()
-
-sep = "..."
-print(input+sep)
+print("...".join(input("Enter a string: ").split()))
