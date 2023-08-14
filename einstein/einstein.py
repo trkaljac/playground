@@ -4,4 +4,4 @@ c = 300000000
 m = float(input())
 
 E = m * c**2
-print(E)
+print(f"Energy: {int(E)}")
