@@ -1,11 +1,12 @@
 # ":)" == "🙂" , ":( "== "🙁"
 
 def convert(input_str):
-    input_str = input_str.replace(":)", "🙂").replace(":(", "🙁")
-    return input_str
-convert(input_str)
+    converted_str = input_str.replace(":)", "🙂").replace(":(", "🙁")
+    return converted_str
+
+user_input = input("Enter text:  ")
+converted_input = convert(user_input)
+print(converted_input)
 
 
-input = input("Enter a string: ")
-text = convert(input)
-print(text)
+
