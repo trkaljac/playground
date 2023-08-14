@@ -1,2 +1,3 @@
 input()
-print(input).split(...)
+print(input)
+separator(...)
