@@ -1,8 +1,8 @@
-greeting = input("Greeting: ").strip().lower().replace(" ","")
+greeting = input("Greeting: ").strip().lower()
 
-if greeting == "Hello":
-    print($0)
-      elif greeting == "H"
-      print($20)
-            else:
-            print($100)
+if greeting == "hello":
+    print("$0")
+elif greeting == "h":
+    print("$20")
+else:
+    print("$100")
