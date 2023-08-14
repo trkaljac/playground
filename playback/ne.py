@@ -1,2 +1,2 @@
-test = input().split()
+test = input().split(sep=...)
 print(test)
