@@ -1,3 +1,4 @@
 input()
 
-print(input).split().joint("...")
+sep = "..."
+print(input+sep)
