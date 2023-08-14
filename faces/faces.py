@@ -6,6 +6,6 @@ if text == ":)":
     print("🙂")
 elif text==":(":
     print("🙁")
-else
-    print(text):
+else:
+    print(text)
 convert()
