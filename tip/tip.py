@@ -6,11 +6,11 @@ def main():
 
 
 def dollars_to_float(d):
-    print("$", "f{dollars:.}")
+    print(f"$ f{dollars:.}")
 
 
 def percent_to_float(p):
-    print("%","f{percemt:.}")
+    print(f"%{percemt:.}")
 
 
 main()
