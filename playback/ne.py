@@ -1,3 +1,3 @@
-test = input()
-separator(...)
+test = input().split("...")
+
 print(test)
