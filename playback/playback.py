@@ -1,2 +1,2 @@
-question =  input()
+text =  input()
 print(input,sep="...")
