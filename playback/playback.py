@@ -1,2 +1,2 @@
-input().add(...)
+input()
 print(input)
