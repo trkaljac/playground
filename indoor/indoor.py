@@ -1,2 +1,2 @@
 question = input("Excuse me can you repeat please ").lower()
-print(question)6^
+print(question)
