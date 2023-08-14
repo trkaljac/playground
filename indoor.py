@@ -1,2 +1,2 @@
-question = input("Excuse me can you repeat please ").lower()
+question = input("Excuse me can you repeat that please ? ").lower()
 print(question)
