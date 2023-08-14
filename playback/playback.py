@@ -1,2 +1,2 @@
-input().partition(...)
-print(input)
+input()
+print(input).split(...)
