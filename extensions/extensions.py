@@ -3,17 +3,17 @@
 file = input("File name: ")
 file = file.strip()
 
-if file.endswith(.gif):
+if file.endswith(".gif"):
     print("image/gif")
-elif file.endswith(.jpg):
+elif file.endswith(".jpg"):
     print("image/jpg")
-elif file.endswith(.jpeg):
+elif file.endswith(".jpeg"):
     print("image/jpeg")
-elif file.endswith(.png):
+elif file.endswith(".png"):
     print("image/png")
-elif file.endswith(.pdf):
+elif file.endswith(".pdf"):
     print("image/pdf")
-elif file.endswith(.txt):
+elif file.endswith(".txt"):
     print("image/txt")
-else file.endswith(.zip):
+else file.endswith(".zip"):
     print("image/zip")
