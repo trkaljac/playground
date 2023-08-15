@@ -17,3 +17,7 @@ elif file.endswith(".txt"):
     print("text/plain")
 elif file.endswith(".zip"):
     print("application/zip")
+elif filename.endswith(".PDF"):
+      print("application/pdf")
+elif filename.endswith(".bin"):
+      print("application/octet-stream")
