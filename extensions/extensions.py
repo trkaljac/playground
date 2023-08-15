@@ -6,7 +6,7 @@ file = file.strip()
 if file.endswith(".gif"):
     print("image/gif")
 elif file.endswith(".jpg"):
-    print("image/jpg")
+    print("image/jpeg")
 elif file.endswith(".jpeg"):
     print("image/jpeg")
 elif file.endswith(".png"):
