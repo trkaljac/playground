@@ -1,5 +1,5 @@
 expression = input("Expression: ")
-x, y, z = expression.split(" ")
+x, y, z = expression.split(" ").strip()
 
 x = float(x)
 z = float(z)
