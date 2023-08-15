@@ -1,4 +1,4 @@
-input("Expression: ")
-intepreter = input(x,y,z).slice()
+intepreter = input("Expression: ")
+x,y,z = intepreter
 if y == ("+"):
     print(x+z)
