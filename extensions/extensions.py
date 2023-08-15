@@ -18,6 +18,6 @@ elif file.endswith(".txt"):
 elif file.endswith(".zip"):
     print("application/zip")
 elif filename.endswith(".PDF"):
-      print("application/pdf")
+    print("application/pdf")
 elif filename.endswith(".bin"):
-      print("application/octet-stream")
+    print("application/octet-stream")
