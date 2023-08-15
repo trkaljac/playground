@@ -1,1 +1,1 @@
-input()
+input(x,y,z"Expresion: ")
