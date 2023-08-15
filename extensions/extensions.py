@@ -21,5 +21,5 @@ elif filename.endswith(".PDF"):
     print("application/pdf")
 elif filename.endswith(".bin"):
     print("application/octet-stream")
-else
+elif
     print("application/octet-stream")
