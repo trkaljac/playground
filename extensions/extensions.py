@@ -1,12 +1,19 @@
 
-.jpg
-.jpeg
-.png
-.pdf
-.txt
-.zip
+
 file = input("File name: ")
 file = file.strip()
 
-if file.endswith(.gif)
-    print("")
+if file.endswith(.gif):
+    print("image/gif")
+elif file.endswith(.jpg):
+    print("image/jpg")
+elif file.endswith(.jpeg):
+    print("image/jpeg")
+elif file.endswith(.png):
+    print("image/png")
+elif file.endswith(.pdf):
+    print("image/pdf")
+elif file.endswith(.txt):
+    print("image/txt")
+else file.endswith(.zip):
+    print("image/zip")
