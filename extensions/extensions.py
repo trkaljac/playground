@@ -21,4 +21,5 @@ elif file.endswith(".PDF"):
     print("application/pdf")
 elif file.endswith(".bin"):
     print("application/octet-stream")
-
+else:
+    print("application/octet-stream")
