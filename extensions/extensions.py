@@ -14,6 +14,6 @@ elif file.endswith(".png"):
 elif file.endswith(".pdf"):
     print("application/pdf")
 elif file.endswith(".txt"):
-    print("image/txt")
+    print("text/plain")
 elif file.endswith(".zip"):
     print("image/zip")
