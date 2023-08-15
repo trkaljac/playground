@@ -6,11 +6,11 @@ z = float(z)
 
 if y == "+":
     print(x + z)
-elif y=="-":
+elif y == "-":
     print(x - z)
-elif y=="/":
-    print(x/z)
+elif y == "/":
+    print(x / z)
 elif y == "*":
-    print(x*z)
+    print(x * z)
 else:
     print("Wrong input")
