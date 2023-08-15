@@ -1,5 +1,5 @@
-intepreter = input("Expression: ")
-x,y,z = intepreter.split()
+expression = input("Expression: ")
+x, y, z = expression.split().input()
 
 x = float(x)
 z = float(z)
@@ -13,4 +13,4 @@ elif y == "/":
 elif y == "*":
     print(x * z)
 else:
-    print("Wrong input")
+    print("Please use +, -, *, or /.")
