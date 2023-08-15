@@ -3,7 +3,7 @@ greeting = input("Greeting: ")
 
 greating = greeting.strip().lower().replace(" ","").replace(",","")
 
-if greeting == "hello":
+if greeting.lower().startswith("Hello"):
     print("$0")
 elif greeting.startswith("h"):
     print("$20")
