@@ -1,4 +1,6 @@
 intepreter = input("Expression: ")
-x,y,z = intepreter.split(" ")
+x, y, z = intepreter.split(" ")
+x = float(x)
+z = float(z)
 if y == ("+"):
-    print(int(x+z))
+    print(x+z)
