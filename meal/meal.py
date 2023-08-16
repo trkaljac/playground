@@ -1,9 +1,9 @@
 def main():
-    ...# get time from user
-    #convert function
-    #breakfast
-    #lunch
-    #dinner
+    ...# get time from user time = input("What time it is ? ")
+    #convert function time = time.convert(time)
+    #breakfast if
+    #lunch elif
+    #dinner else
 
 
 def convert(time):
