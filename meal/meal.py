@@ -2,11 +2,11 @@ def main():
     ...# get time from user time = input("What time it is ? ")
     #convert function time = time.convert(time)
     #breakfast7:00 to 8:00   if
-                            print("")
+                            print("brekfest time")
     #lunch12:00 13:00       elif
-                            print("")
+                            print("lunch time")
     #dinner18:00 19:00      else
-                            print("")
+                            print("dinner time")
 
 
 def convert(time):
