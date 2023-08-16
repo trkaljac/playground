@@ -12,7 +12,10 @@ def main():
 def convert(time):
     ...
 #get hours and minuts hours, minutes = time.split(":")
-#convtr to a float
+#convtr to a float hours = float(hours)
+    #minutes = float(minutes) / 60
+    #time = hours + minutes
+    #return time
 #return the resolt to main function
 
 if __name__ == "__main__":
