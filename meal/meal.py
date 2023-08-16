@@ -1,6 +1,6 @@
 def main():
-question = input("What time it is ? ")
- time = time.convert(question)
+    question = input("What time it is ? ")
+    time = time.convert(question)
 if time >=7 and time<=8:
     print("brekfest time")
 elif time >=12 and time <=13:
@@ -15,7 +15,7 @@ hours, minutes = time.split(":")
 hours = float(hours)
 con_minutes = float(minutes) / 60
 time = hours + con_minutes
-return time
+    return time
 
 
 if __name__ == "__main__":
