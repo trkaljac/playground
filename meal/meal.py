@@ -1,5 +1,5 @@
 def main():
-    ...# get time from user time = input("What time it is ? ")
+q = input("What time it is ? ")
     #convert function time = time.convert(time)
     #breakfast7:00 to 8:00   if
                             print("brekfest time")
