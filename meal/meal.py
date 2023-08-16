@@ -1,6 +1,6 @@
 def main():
     question = input("What time it is ? ")
-    time = time.convert(question)
+    time = convert(question)
     if time >=7 and time<=8:
         print("brekfest time")
     elif time >=12 and time <=13:
