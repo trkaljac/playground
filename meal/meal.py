@@ -1,7 +1,7 @@
 def main():
 question = input("What time it is ? ")
     #convert function time = time.convert(question)
-    #breakfast7:00 to 8:00   if
+    #breakfast7:00 to 8:00   if time >=7 and time<=8:
                             print("brekfest time")
     #lunch12:00 13:00       elif
                             print("lunch time")
