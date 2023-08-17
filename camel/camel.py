@@ -1,7 +1,9 @@
 question = input("camelCase: ")
-def snake_case(
-    for capital letter in question.lower() add "_" )
-for character in string:
-    print(character, end="")
+snake_case = ""
+for character in question:
+    if caracter.isupper():
+        snake_case +="_"+character.lower()
+    else:
 
 print(question)
+print(snake_case)
