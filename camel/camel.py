@@ -1,6 +1,6 @@
 question = input("camelCase: ")
 
-for c in s:
+for character in string:
     print(c, end="")
 
 print(question)
