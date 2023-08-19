@@ -1,10 +1,12 @@
 coke = 50
-while amaunt_due < coke
-    print(f"Amount Due: {coke}")
-# Input the amount of money inserted
-print(f"Amount Due: {coke}")
+amaunt_due = 0
+while amaunt_due < coke:
+    print(f"Amount Due: {coke - ins}")
+    ins = int(input("Insert Coin: "))
+    amaunt_due += ins
 
-ins = int(input("Insert Coin: "))
+
+
 
 amaunt_due = coke - ins  # Calculate the change owed
 
