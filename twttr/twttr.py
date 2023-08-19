@@ -1,10 +1,10 @@
 twit = input("Input: ")
-twit.split().change("a,e,i,o,u","")
+twit.strip().replace("a","")
 
 print("Output: " +twit)
 
 
 
 
-for character in strings:
-    print(character, end="")
+#for character in strings:
+  #  print(character, end="")
