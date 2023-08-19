@@ -9,4 +9,4 @@ while amaunt_due < coke:
     ins = int(input("Insert Coin: "))
     amaunt_due += ins
 
-
+print("Change Owed: 0")
