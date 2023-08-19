@@ -2,7 +2,7 @@
 
 s = input("Input: ")
 x = list(s)
-res = [sub.replace('4', '1') for sub in test_list]
+res = [sub.replace('a', ' ') for sub in s]
 print(x)
 
 
