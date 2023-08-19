@@ -1,4 +1,3 @@
-
 coke = 50
 amaunt_due = 0
 
