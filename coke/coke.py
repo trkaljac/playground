@@ -11,4 +11,9 @@ while amaunt_due < coke:
 
     amaunt_due += ins
 
-print("Change Owed: 0")
+if amaunt_due > coke:
+    change_owed = amaunt_due - coke
+    print(f"Change Owed: {change_owed}")
+else:
+    print("Change Owed: 0")
+
