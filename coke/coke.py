@@ -10,6 +10,6 @@ while amaunt_due < coke:
     amaunt_due += ins
 
     if ins not in [5, 10, 25]:
-    return
+        break
 
 print("Change Owed: 0")
