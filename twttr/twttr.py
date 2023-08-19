@@ -1,7 +1,9 @@
 
 
-s = input("Input: ").replace("a","")
+s = input("Input: ")
 x = list(s)
+if s == "a":
+    replace("")
 print(x)
 
 
