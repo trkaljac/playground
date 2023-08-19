@@ -1,9 +1,9 @@
 
 
 s = input("Input: ")
-x = list(s)
-res = [sub.replace("a,e,i,o,u", "")for sub in s]
-print(res)
+
+res = [char for char in s if char not in "aeiouAEIOU"]
+print("".join(res))
 
 
 #twit.strip().replace("a","")
