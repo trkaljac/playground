@@ -1,20 +1,6 @@
 
+twttr = input("Input: ")
 
-s = input("Input: ")
+res = [char for char in twttr if char not in "aeiouAEIOU"]
+print("Output: " + "".join(res))
 
-res = [char for char in s if char not in "aeiouAEIOU"]
-print("".join(res))
-
-
-#twit.strip().replace("a","")
-#twit.list()
-
-
-
-#print("Output: " +twit)
-
-
-
-
-#for character in strings:
-  #  print(character, end="")
