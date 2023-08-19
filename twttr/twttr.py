@@ -1,14 +1,16 @@
 
 
-s = "mystring"
-l = list(s)
-print l
 
 
 twit = input("Input: ")
 twit.strip().replace("a","")
+twit.list()
 
-print("Output: " +twit)
+s = twit
+l = list(s)
+print (l)
+
+#print("Output: " +twit)
 
 
 
