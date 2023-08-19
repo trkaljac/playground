@@ -2,8 +2,7 @@
 
 s = input("Input: ")
 x = list(s)
-if s == "a":
-    replace("")
+res = [sub.replace('4', '1') for sub in test_list]
 print(x)
 
 
