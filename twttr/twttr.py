@@ -1,3 +1,10 @@
+
+
+s = "mystring"
+l = list(s)
+print l
+
+
 twit = input("Input: ")
 twit.strip().replace("a","")
 
