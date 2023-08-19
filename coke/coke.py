@@ -9,8 +9,7 @@ while amaunt_due < coke:
     ins = int(input("Insert Coin: "))
     amaunt_due += ins
 
-if ins not in [5, 10, 25]:
-        print("Invalid coin. Please insert 5, 10, or 25 cents.")
-        continue
+    if ins not in [5, 10, 25]:
+    return
 
 print("Change Owed: 0")
