@@ -1,7 +1,7 @@
 coke = 50
 # Input the amount of money inserted
-
-ins = int(input(f"Amount Due: {coke} "))
+print(f"Amount Due:"{coke})
+ins = int(input("Insrt Coin: "))
 print("Insert Coin")
 amaunt_due = coke - ins  # Calculate the change owed
 
