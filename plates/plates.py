@@ -3,8 +3,25 @@
 #first number cant be 0
 #no ",","."," ",":"
 #all caps
+def is_valid(s):
+    ...
+    if len(s) <2 or len(s) >6:
+        return False
+    if not s [-1].isdigit():
+        return False
+    if s[0] == "0":
+        return False
+    invalid_characters = set(',. :')
+    if any(char in invalid_characters for char in s):
+        return False
+    if not s.isupper():
+        return False
+    else:
+    return True
+
+
 def main():
-    plate = input("Plate: ")
+    plate = input("Plate: ").isupper()
     if is_valid(plate):
 
         print("Valid")
@@ -12,10 +29,6 @@ def main():
         print("Invalid")
 
 
-def is_valid(s):
-    ...
-    if len(s) <2 or len(s) >6:
-        return False
 
 
 main()
