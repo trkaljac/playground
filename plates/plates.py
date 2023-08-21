@@ -19,6 +19,8 @@ def is_valid(s):
         return False
     if not all(char.isalpha() and char.isupper() for char in s):
         return False
+    if not s[:2].isalpha():
+        return False
 
     else:
         return True
