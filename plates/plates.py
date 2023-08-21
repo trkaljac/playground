@@ -13,11 +13,13 @@ def is_valid(s):
         return False
     if s[0] == "0":
         return False
-
     if any(char in invalid_characters for char in s):
         return False
     if not s.isupper():
         return False
+    if not all(char.isalpha() and char.isupper() for char in s):
+        return False
+
     else:
         return True
 
