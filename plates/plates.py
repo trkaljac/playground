@@ -4,9 +4,10 @@
 #no ",","."," ",":"
 #all caps
 invalid_characters = set(',. :')
+
 def is_valid(s):
-    ...
-    if len(s) < 2 or len(s) > 6:
+    plate_length = len(s)
+    if not (2 <= plate_length <= 6):
         return False
     if not s [-1].isdigit():
         return False
