@@ -9,7 +9,7 @@ def is_valid(s):
     plate_length = len(s)
     if not (2 <= plate_length <= 6):
         return False
-    if not s [-1].isdigit():
+    if not s[-1].isdigit():
         return False
     if s[0] == "0":
         return False
@@ -23,13 +23,11 @@ def is_valid(s):
 
 
 def main():
-    plate = input("Plate: ").isupper()
+    plate = input("Plate: ")
+    plate = plate.upper()  # Convert input to uppercase
     if is_valid(plate):
         print("Valid")
     else:
         print("Invalid")
-
-
-
 
 main()
