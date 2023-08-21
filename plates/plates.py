@@ -24,7 +24,6 @@ def is_valid(s):
 def main():
     plate = input("Plate: ").isupper()
     if is_valid(plate):
-
         print("Valid")
     else:
         print("Invalid")
