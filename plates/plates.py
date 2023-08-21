@@ -3,6 +3,7 @@
 #first number cant be 0
 #no ",","."," ",":"
 #all caps
+invalid_characters = set(',. :')
 def is_valid(s):
     ...
     if len(s) <2 or len(s) >6:
@@ -11,13 +12,13 @@ def is_valid(s):
         return False
     if s[0] == "0":
         return False
-    invalid_characters = set(',. :')
+
     if any(char in invalid_characters for char in s):
         return False
     if not s.isupper():
         return False
     else:
-    return True
+        return True
 
 
 def main():
