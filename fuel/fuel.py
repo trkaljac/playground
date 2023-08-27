@@ -5,7 +5,8 @@ import math
 fraction_input = input("Fraction: ").split('/')
 numerator = int(fraction_input[0])
 denominator = int(fraction_input[1])
-print((numerator/denominator)* 100 is {rounded_up})
+rounded_up = -int(-number // 1)
+print((numerator/denominator)* 100)
 
 try:
       fraction = fractions.Fraction(numerator, denominator)
