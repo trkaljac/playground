@@ -8,4 +8,4 @@ fruits = [{"Item": "Apple","Calories" :130},{"Item": "Avocado","Calories":50},{"
 
 input("Item: ")
 for fruit in fruits:
-    print( "Calories")
+    print(fruit["Calories"])
