@@ -5,5 +5,5 @@ fruits = {"Apple":130,"Avocado":50,"Sweet Cherries":100,"Banana":110,
           "Tangerine":50,"Watermelon":80}
 
 input("Item: ")
-if input == fruits[]:
-    print(fruits[])
+input = fruits[{input}]
+print(fruits[input])
