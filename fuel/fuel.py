@@ -1,11 +1,11 @@
 import fractions
 
-input("Fraction: ")
+input("Fraction: ").split('/')
 
 try:
     if not input.isnumeric():
         input = fractions.Fraction(input)
 except ValueError:
-    throw ValueError(myinput + " is not a number")
+    print(input + " is not a number")
 except ZeroDivisionError:
     pass
