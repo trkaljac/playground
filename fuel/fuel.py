@@ -1,6 +1,8 @@
 import fractions
 
-input("Fraction: ").split('/')
+fractionInput=input("Fraction: ").split('/')
+numerator = int(fraction_input[0])
+denominator = int(fraction_input[1])
 
 try:
     if not input.isnumeric():
