@@ -11,5 +11,7 @@ print(f"{percentage:.0f}%")
 try:
       fraction = fractions.Fraction(numerator, denominator)
 except (ValueError, ZeroDivisionError):
-    print("Invalid fraction input")
+      pass
+
+
 
