@@ -15,6 +15,6 @@ for fruit in fruits:
         print(f"Calories: {fruit['Calories']}")
 
 
-if not in a dick:
+else :
     pass
 
