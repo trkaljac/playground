@@ -10,7 +10,7 @@ percentage = (numerator / denominator) * 100
 if percentage <= 1:
     print("E")
 elif percentage >= 99:
-    print("E")
+    print("F")
 else:
     print(f"{percentage:.0f}%")
 try:
