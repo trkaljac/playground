@@ -9,10 +9,10 @@ fruits = [{"Item": "Apple","Calories" :130},{"Item": "Avocado","Calories":50},{"
 
 input = input("Item: ")
 
-found = False
+
 for fruit in fruits:
     if fruit["Item"].lower() == input.lower():
-        print(f"{fruit['Calories']}")
+        print(f"Calories: {fruit['Calories']}")
         found = True
         break
 
