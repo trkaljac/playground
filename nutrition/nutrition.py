@@ -6,6 +6,15 @@ fruits = [{"Item": "Apple","Calories" :130},{"Item": "Avocado","Calories":50},{"
           {"Item": "Pineapple","Calories":50},{"Item": "Plums","Calories":70},{"Item": "Strawberries","Calories":50},
           {"Item": "Tangerine","Calories":50},{"Item": "Watermelon","Calories":80}]
 
-input("Item: ")
+
+input = input("Item: ")
+
+found = False
 for fruit in fruits:
-    print(fruit["Calories"])
+    if fruit["Item"].lower() == input.lower():
+        print(f"{fruit['Calories']}")
+        found = True
+        break
+
+if not found:
+    print(" ")
