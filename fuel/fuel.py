@@ -1,4 +1,6 @@
 import fractions
+import math
+
 
 fraction_input = input("Fraction: ").split('/')
 numerator = int(fraction_input[0])
