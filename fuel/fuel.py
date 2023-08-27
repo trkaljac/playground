@@ -8,6 +8,8 @@ denominator = int(fraction_input[1])
 percentage = (numerator / denominator) * 100
 print(f"{percentage:.0f}%")
 
+if pecentage < 
+
 try:
       fraction = fractions.Fraction(numerator, denominator)
 except (ValueError, ZeroDivisionError):
