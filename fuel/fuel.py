@@ -5,8 +5,8 @@ numerator = int(fractionInput[0])
 denominator = int(fractionInput[1])
 
 try:
-    if not input.isnumeric():
-        input = fractions.Fraction(input)
+
+ if input = fractions.Fraction(input)
 except (ValueError,ZeroDivisionError):
     print(input + " is not a number")
 
