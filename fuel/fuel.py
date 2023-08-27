@@ -11,7 +11,8 @@ if percentage <= 1:
     print("E")
 elif percentage >= 99:
     print("E")
-print(f"{percentage:.0f}%")
+else:
+    print(f"{percentage:.0f}%")
 try:
       fraction = fractions.Fraction(numerator, denominator)
 except (ValueError, ZeroDivisionError):
