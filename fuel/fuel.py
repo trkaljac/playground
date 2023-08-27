@@ -5,10 +5,9 @@ numerator = int(fractionInput[0])
 denominator = int(fractionInput[1])
 
 try:
-
- if input = fractions.Fraction(input)
-except (ValueError,ZeroDivisionError):
-    print(input + " is not a number")
+    fraction = fractions.Fraction(numerator, denominator)
+except (ValueError, ZeroDivisionError):
+    print("Invalid fraction input")
 
 if fraction == fractions.Fraction(1, 2):
     print("50%")
