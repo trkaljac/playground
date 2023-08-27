@@ -1,2 +1,4 @@
+import fractions
+
 input("Fraction: ")
 
