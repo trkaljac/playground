@@ -9,11 +9,13 @@ if percentage <= 1:
     print("E")
 elif percentage >= 99:
     print("F")
-else:
-    break
+
 try:
-    except (ValueError, ZeroDivisionError):
-        pass
+    ...
+except ValueError:
+    ...
+except ZeroDivisionError:
+    ...
 
 
 
