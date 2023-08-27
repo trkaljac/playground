@@ -1,2 +1,2 @@
-input("Fraction: ")
+input("Fraction: ").Fraction()
 
