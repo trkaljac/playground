@@ -10,9 +10,8 @@ while True:
         print("E")
     elif percentage >= 99:
         print("F")
-    elif print(f"{percentage:.0f}%"):
-        else:
-            return
+    else:
+        break
     try:
         fraction = fractions.Fraction(numerator, denominator)
     except (ValueError, ZeroDivisionError):
