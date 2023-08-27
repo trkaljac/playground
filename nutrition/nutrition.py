@@ -5,5 +5,5 @@ fruits = {"Apple":130,"Avocado":50,"Sweet Cherries":100,"Banana":110,
           "Tangerine":50,"Watermelon":80}
 
 input("Item: ")
-fo
-print(fruits,fruits[{input}])
+for fruit in fruits:
+    print(fruits,fruits[{input}])
