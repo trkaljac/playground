@@ -8,9 +8,9 @@ denominator = int(fraction_input[1])
 percentage = (numerator / denominator) * 100
 print(f"{percentage:.0f}%")
 
-if pecentage <= "1%":
+if percentage <= 1:
     print("E")
-elif pecentage >= "99%":
+elif percentage >= 99:
     print("E")
 
 try:
