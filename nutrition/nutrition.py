@@ -13,8 +13,7 @@ input = input("Item: ")
 for fruit in fruits:
     if fruit["Item"].lower() == input.lower():
         print(f"Calories: {fruit['Calories']}")
-        found = True
-        break
+        
 
 if not found:
     print(" ")
